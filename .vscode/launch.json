@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run: Watch All",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/script.js",
+            "preLaunchTask": "Watch: All",
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart"
+        }
+    ]
+}

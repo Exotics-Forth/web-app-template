@@ -1,0 +1,53 @@
+# Node dependencies
+node_modules/
+
+# pnpm
+.pnpm/
+.pnpm-store/
+
+# Lockfiles (keep pnpm-lock.yaml if you want reproducible installs; ignore other lockfiles)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build output
+dist/
+build/
+out/
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Source maps and compiled assets
+*.css.map
+*.js.map
+*.map
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / editor
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# VS Code workspace file (keep .vscode folder contents in repo if you want shared tasks/launch configs)
+# .vscode/
+
+# Cache
+.cache/
+.parcel-cache/

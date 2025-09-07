@@ -1,0 +1,59 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Prerequisites",
+            "type": "shell",
+            "command": "npm install --global corepack@latest; corepack use pnpm@latest; pnpm install",
+            "options": { "cwd": "${workspaceFolder}" },
+            "problemMatcher": [],
+            "dependsOn": []
+        },
+        {
+            "label": "TypeScript: Watch",
+            "type": "shell",
+            "command": "pnpm run ts:watch",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "isBackground": true,
+            "problemMatcher": []
+        },
+        {
+            "label": "Sass: Watch",
+            "type": "shell",
+            "command": "pnpm run sass:watch",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "isBackground": true,
+            "problemMatcher": []
+        },
+        {
+            "label": "Watch: All",
+            "type": "shell",
+            "command": "pnpm run watch:all",
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "dependsOn": ["Prerequisites"],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "isBackground": true,
+            "runOptions": {
+                "runOn": "folderOpen"
+            },
+            "problemMatcher": []
+        }
+    ]
+}

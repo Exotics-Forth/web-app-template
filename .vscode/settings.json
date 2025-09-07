@@ -1,0 +1,164 @@
+{
+    "editor.fontFamily": "Cascadia Code, Consolas, 'Courier New', monospace",
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+        "source.fixAll.eslint": "explicit",
+        "source.organizeImports": "explicit"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": "explicit"
+        }
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": "explicit"
+        }
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": "explicit"
+        }
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": "explicit"
+        }
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4
+    },
+    "diffEditor.codeLens": true,
+    "editor.smoothScrolling": true,
+    "workbench.list.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": true,
+    "terminal.integrated.scrollback": 3000,
+    "eslint.format.enable": true,
+    "eslint.lintTask.enable": true,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+    "eslint.codeActionsOnSave.mode": "all",
+    "eslint.codeActionsOnSave.rules": ["*"],
+    "prettier.requireConfig": false,
+    "prettier.useEditorConfig": false,
+    "prettier.tabWidth": 4,
+    "prettier.useTabs": false,
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "github.copilot.chat.codesearch.enabled": true,
+    "github.copilot.chat.agent.thinkingTool": true,
+    "github.copilot.chat.editor.temporalContext.enabled": true,
+    "github.copilot.chat.edits.temporalContext.enabled": true,
+    "github.copilot.chat.enableRetryAfterFilteredResponse": true,
+    "github.copilot.chat.generateTests.codeLens": true,
+    "github.copilot.chat.languageContext.fix.typescript.enabled": true,
+    "github.copilot.chat.languageContext.inline.typescript.enabled": true,
+    "github.copilot.chat.languageContext.typescript.enabled": true,
+    "github.copilot.chat.notebook.followCellExecution.enabled": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "files.autoSave": "onFocusChange",
+    "redhat.telemetry.enabled": false,
+    "workbench.colorTheme": "Aura Dracula Spirit",
+    "chat.agent.maxRequests": 9999,
+    "files.autoGuessEncoding": true,
+    "files.autoSaveDelay": 300,
+    "files.hotExit": "onExitAndWindowClose",
+    "chat.checkpoints.showFileChanges": true,
+    "chat.math.enabled": true,
+    "chat.renderRelatedFiles": true,
+    "prettier.enableDebugLogs": true,
+    "errorLens.codeLensEnabled": true,
+    "github.codespaces.devcontainerChangedNotificationStyle": "modal",
+    "github.codespaces.createCodespaceInNewWindow": true,
+    "terminal.integrated.confirmOnExit": "always",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorStyleInactive": "block",
+    "terminal.integrated.enableVisualBell": true,
+    "terminal.integrated.environmentChangesIndicator": "on",
+    "terminal.integrated.fontLigatures.enabled": true,
+    "terminal.integrated.stickyScroll.enabled": true,
+    "terminal.integrated.suggest.enabled": true,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.suggest.preview": true,
+    "editor.suggest.shareSuggestSelections": true,
+    "search.searchView.keywordSuggestions": true,
+    "bookmarks.label.suggestion": "suggestWhenSelectedOrLineWhenNoSelected",
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.useInlineCompletions": true,
+    "window.newWindowProfile": "Default",
+    "editor.fontLigatures": true,
+    "chat.mcp.autostart": "newAndOutdated",
+    "editor.guides.bracketPairs": "active"
+}
