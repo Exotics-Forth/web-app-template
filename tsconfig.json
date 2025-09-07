@@ -2,16 +2,16 @@
     "compilerOptions": {
         "target": "ES2022",
         "module": "ES2022",
-        "esModuleInterop": true,
-        "forceConsistentCasingInFileNames": true,
-        "skipLibCheck": true,
-        "outDir": "./",
         "rootDir": "./",
+        "outDir": "./",
         "allowJs": true,
         "checkJs": true,
+        "strict": true,
+        "noImplicitAny": true,
+        "esModuleInterop": true,
         "sourceMap": true,
-        "noImplicitAny": false,
-        "strict": false
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true
     },
     "include": ["**/*.ts"],
     "exclude": ["node_modules"]
