@@ -4,7 +4,7 @@
         {
             "label": "Prerequisites",
             "type": "shell",
-            "command": "npm install --global corepack@latest; corepack use pnpm@latest; pnpm install",
+            "command": "if (-not (Get-Command node -ErrorAction SilentlyContinue)) { winget install -e --id OpenJS.NodeJS.LTS --accept-package-agreements --accept-source-agreements } ; npm install --global corepack@latest; corepack use pnpm@latest; pnpm install",
             "options": { "cwd": "${workspaceFolder}" },
             "problemMatcher": [],
             "dependsOn": []

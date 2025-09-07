@@ -21,8 +21,10 @@ A modern, lightweight web application template featuring TypeScript, Sass, and a
 
 Before you begin, ensure you have the following installed:
 
--   [Node.js](https://nodejs.org/) (version 16 or higher)
--   [PNPM](https://pnpm.io/) (will be installed automatically via corepack)
+-   [Node.js](https://nodejs.org/) (version 16 or higher will be installed automatically via `winget`)
+-   [PNPM](https://pnpm.io/) (will be installed automatically via `corepack`)
+
+Note: This repository includes a VS Code workspace task named `Prerequisites` (in `.vscode/tasks.json`). On Windows, that task will install Node.js using `winget` automatically if Node is not already installed, then install `corepack`, enable `pnpm`, and run `pnpm install`. Use the task for a one-step setup in VS Code.
 
 ### Installation
 
@@ -49,6 +51,17 @@ cd web-app-template
 ### Setup and Development
 
 1. **Install dependencies and setup package manager:**
+
+    Option A — Recommended (VS Code task, Windows):
+
+    - Open the project in VS Code.
+    - Run the `Prerequisites` task: Terminal → Run Task → Prerequisites.
+
+    This will install Node.js via `winget` if missing, then run `npm install --global corepack@latest`, `corepack use pnpm@latest`, and `pnpm install`.
+
+    Important: This workspace is configured to autorun the `Watch: All` task on folder open (see `.vscode/tasks.json` — `runOn: folderOpen`) and `Watch: All` depends on the `Prerequisites` task. That means opening the project in VS Code can automatically run the `Prerequisites` task (which will install Node via `winget` on Windows if needed). Also, `.vscode/launch.json` contains a `preLaunchTask` of `Watch: All`, so launching the configured debugger will start the same tasks.
+
+    Option B — Manual (cross-platform fallback):
 
     ```bash
     npm install --global corepack@latest
